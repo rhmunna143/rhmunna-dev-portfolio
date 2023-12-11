@@ -1,6 +1,7 @@
 import ContactForm from "../../Components/Shared/ContactForm";
 import Container from "../../Components/Shared/Container";
 import SectionHeading from "../../Components/Shared/Heading/SectionHeading";
+import SocialIcons from "../../Components/Social/SocialIcons";
 
 const ContactPage = () => {
     return (
@@ -19,6 +20,9 @@ const ContactPage = () => {
                             +880 1877 2555 95 <br />
                             rhmunna19@gmail.com
                         </address>
+                        <div className="social mt-6">
+                            <SocialIcons />
+                        </div>
                     </div>
                     <ContactForm />
                 </div>
