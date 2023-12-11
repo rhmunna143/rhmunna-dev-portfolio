@@ -11,12 +11,12 @@ const Footer = () => {
                     <h6 className="text-2xl text-slate-400">Let's Work Together</h6>
 
                     <Link to={"/contact"}>
-                        <h1 className="text-5xl text-primary hover:text-white">rhmunna19@gmail.com</h1>
+                        <h1 className="md:text-5xl text-3xl text-primary hover:text-white">rhmunna19@gmail.com</h1>
                     </Link>
                 </div>
             </Container>
 
-            <div className="foot bg-base-100 py-5 flex justify-around items-center px-4">
+            <div className="foot bg-base-100 py-5 flex justify-around gap-5 items-center px-4">
                 <div className="copy">
                     <p className="text-sm">
                         &copy; 2023 Rabbi Haque Munna. All rights reserved.

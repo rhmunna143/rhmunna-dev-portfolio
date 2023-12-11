@@ -7,9 +7,9 @@ import CV from "../../../assets/files/MD_RABBI_HAQUE_MUNNA_CV.pdf"
 const Banner = () => {
     return (
 
-        <div className="banner-bg py-24 flex flex-col justify-center items-start">
+        <div className="banner-bg  lg:py-24 flex flex-col justify-center items-start">
             <Container>
-                <div className="banner-black p-16 w-4/5">
+                <div className="banner-black p-16 lg:w-4/5">
                     <h1 className="text-5xl font-bold">Hi, I am <span className="uppercase">Rabi Haque <span className="text-primary">Munna</span></span></h1>
 
                     <h2 className="text-4xl mt-6 font-bold capitalize text-primary">Web Developer</h2>

@@ -1,6 +1,6 @@
 .banner-bg{
     background: url("../../../assets/images/dev-banner.gif");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
