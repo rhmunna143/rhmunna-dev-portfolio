@@ -1,11 +1,13 @@
 import ContactForm from "../../Components/Shared/ContactForm";
 import Container from "../../Components/Shared/Container";
 import SectionHeading from "../../Components/Shared/Heading/SectionHeading";
+import Banner from "./Banner/Banner";
+
 
 const Home = () => {
     return (
         <div>
-
+            <Banner />
 
 
 
