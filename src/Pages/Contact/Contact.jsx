@@ -10,7 +10,7 @@ const ContactPage = () => {
                     <SectionHeading title={"Contact Me"} align={"center"} />
                 </div>
 
-                <div className="grid grid-cols-1 lg:grid-cols-2 mt-20">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-20">
                     <div className="address">
                         <h2 className="text-3xl my-6 text-blue-600">GET IN TOUCH</h2>
                         <address className="text-lg">

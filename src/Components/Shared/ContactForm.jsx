@@ -1,4 +1,5 @@
 import emailjs from 'emailjs-com';
+import toast from 'react-hot-toast';
 
 const ContactForm = () => {
     const sendEmail = (e) => {
@@ -8,9 +9,13 @@ const ContactForm = () => {
             .then((result) => {
                 console.log(result.text);
                 // Optionally, show a success message to the user
+                if (result.text === "OK") {
+                    toast.success("Message sent successfully. I will contact you as soon as possible.");
+                }
             }, (error) => {
                 console.log(error.text);
                 // Optionally, show an error message to the user
+                toast.error(error.text);
             });
     };
 
