@@ -2,6 +2,7 @@
 import Container from "../../../Components/Shared/Container";
 import "./Banner.css";
 import { HiOutlineDownload } from "react-icons/hi";
+import CV from "../../../assets/files/MD_RABBI_HAQUE_MUNNA_CV.pdf"
 
 const Banner = () => {
     return (
@@ -17,7 +18,7 @@ const Banner = () => {
                         Tech enthusiast fueled by curiosity. <br /> Dedicated to coding, exploring new technologies, and creating innovative solutions. <br /> Let's connect and build something great!
                     </p>
 
-                    <a href="/MD_RABBI_HAQUE_MUNNA_CV.pdf" download={"MD_RABBI_HAQUE_MUNNA_CV.pdf"} className="btn mt-6 btn-outline btn-warning text-lg font-medium uppercase"><HiOutlineDownload /> Download Resume</a>
+                    <a href={CV} download={"MD_RABBI_HAQUE_MUNNA_CV.pdf"} className="btn mt-6 btn-outline btn-warning text-lg font-medium uppercase"><HiOutlineDownload /> Download Resume</a>
                 </div>
             </Container>
         </div>
