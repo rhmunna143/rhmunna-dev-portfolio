@@ -46,7 +46,7 @@ const NavBar = () => {
                     </ul>
                 </div>
                 <Link className="float-right lg:float-left">
-                    <img src={logo} className="w-40 h-30" alt="" />
+                    <img src={logo} className="w-40 h-16" alt="" />
                 </Link>
             </div>
 
