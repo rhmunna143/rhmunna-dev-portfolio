@@ -1,10 +1,9 @@
+import HomeAbout from "../Home/HomeAbout/HomeAbout";
 
 
 const AboutPage = () => {
     return (
-        <div>
-            about
-        </div>
+        <HomeAbout/>
     );
 };
 
