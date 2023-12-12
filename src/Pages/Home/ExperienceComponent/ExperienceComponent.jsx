@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Container from "../../../Components/Shared/Container";
 import SectionHeading from "../../../Components/Shared/Heading/SectionHeading";
 
@@ -29,7 +30,7 @@ const ExperienceComponent = () => {
                                 Integrated payment gateways (such as Stripe) for contest participation, ensuring secure and seamless transactions.
                             </li>
                             <li>
-                                Managed contest lifecycles, allowing creators to set deadlines, approve submissions, select winners, and handle contest expiration functionalities.
+                                Managed contest lifecycle, allowing creators to set deadlines, approve submissions, select winners, and handle contest expiration functionalities.
                             </li>
                             <li>
                                 Implemented authentication and security protocols using Mongoose, ensuring firewalls and secure access to sensitive data.

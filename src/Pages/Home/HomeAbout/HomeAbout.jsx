@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Link } from "react-router-dom";
 import Container from "../../../Components/Shared/Container";
 import SectionHeading from "../../../Components/Shared/Heading/SectionHeading";
