@@ -3,7 +3,7 @@
 const SectionHeading = ({ align, title }) => {
     return (
         <div className={`text-${align} text-primary`}>
-            <h1 className="text-4xl font-medium">{title}</h1>
+            <h1 className="text-5xl font-medium">{title}</h1>
         </div>
     );
 };
