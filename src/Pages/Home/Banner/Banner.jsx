@@ -20,7 +20,7 @@ const Banner = () => {
                     </p>
 
                     <div className="random-buttons flex flex-col justify-center w-fit gap-6">
-                        <a href={CV} download={"MD_RABBI_HAQUE_MUNNA_CV.pdf"} className="btn w-fit mt-6 btn-outline btn-warning text-lg font-medium uppercase"><HiOutlineDownload /> Download Resume</a>
+                        <a href={CV} download={"MD_RABBI_HAQUE_MUNNA-Sample-CV.pdf"} className="btn w-fit mt-6 btn-outline btn-warning text-lg font-medium uppercase"><HiOutlineDownload /> Download Resume</a>
                         <div className="icons">
                             <SocialIcons />
                         </div>
