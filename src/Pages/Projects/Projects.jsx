@@ -55,7 +55,7 @@ const data = [
 const Projects = () => {
 
     return (
-        <div>
+        <div className="bg-black">
             <Container>
                 <div className="w-fit mx-auto">
                     <SectionHeading title={"Latest Projects"} />

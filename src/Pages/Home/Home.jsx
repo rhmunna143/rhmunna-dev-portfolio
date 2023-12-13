@@ -15,9 +15,9 @@ const Home = () => {
 
             <SkillSets />
 
-            <ExperienceComponent />
-
             <Projects />
+
+            <ExperienceComponent />
 
             <Education />
 

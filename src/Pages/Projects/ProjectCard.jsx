@@ -1,15 +1,14 @@
 /* eslint-disable react/prop-types */
 
-
 const ProjectCard = ({ project }) => {
     return (
-        <div className="flex flex-col justify-center bg-black p-4 rounded-lg">
+        <div className="flex flex-col justify-center bg-base-100 p-4 rounded-lg">
             <div className="img" style={{ overflowX: "hidden", overflowY: "hidden" }}>
                 <img src={project.image} alt="" className="h-full w-full object-cover hover:scale-110 transition rounded-lg" />
             </div>
 
             <div className="text">
-                <h3 className="mt-5 text-2xl">{project.name.slice(0, 30) + ".."}</h3>
+                <h3 className="mt-5 text-2xl text-primary">{project.name.slice(0, 30) + ".."}</h3>
                 <p className="mt-5">
                     <span className="font-semibold text-lg">Features:</span> {project.features.slice(0, 140) + "..."}
                 </p>
@@ -20,7 +19,7 @@ const ProjectCard = ({ project }) => {
                     </button>
 
                     <button className="btn btn-outline btn-warning btn-xs uppercase">
-                        <a href={project.clientUrl}>Client side source code</a>
+                        <a href={project.clientUrl}>Client side code</a>
                     </button>
 
                     <button className="btn btn-outline btn-warning btn-xs uppercase">

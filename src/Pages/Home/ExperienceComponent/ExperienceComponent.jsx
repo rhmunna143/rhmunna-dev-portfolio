@@ -4,7 +4,7 @@ import SectionHeading from "../../../Components/Shared/Heading/SectionHeading";
 
 const ExperienceComponent = () => {
     return (
-        <div className="bg-black text-white py-8 px-4">
+        <div className="text-white py-8 px-4">
             <Container>
                 <SectionHeading title={"MERN Stack Project Experience"} />
                 <div className="mb-4 mt-6">
