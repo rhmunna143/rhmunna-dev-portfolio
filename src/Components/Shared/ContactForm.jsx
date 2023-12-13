@@ -21,9 +21,9 @@ const ContactForm = () => {
 
     return (
         <form onSubmit={sendEmail} className='uppercase flex flex-col justify-center gap-6'>
-            <input type="text" name="name" placeholder="Name" className='h-12 px-4 border-2 bg-transparent border-primary rounded-lg' />
-            <input type="email" name="email" placeholder="Email" className='h-12 px-4 border-2 bg-transparent border-primary rounded-lg' />
-            <textarea name="message" placeholder="Message" className='h-40 pt-5 px-4 border-2 bg-transparent border-primary rounded-lg'></textarea>
+            <input required type="text" name="name" placeholder="Name" className='h-12 px-4 border-2 bg-transparent border-primary rounded-lg' />
+            <input required type="email" name="email" placeholder="Email" className='h-12 px-4 border-2 bg-transparent border-primary rounded-lg' />
+            <textarea required name="message" placeholder="Message" className='h-40 pt-5 px-4 border-2 bg-transparent border-primary rounded-lg'></textarea>
             <button className='btn btn-outline btn-warning w-full uppercase' type="submit">Send now</button>
         </form>
     );
