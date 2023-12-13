@@ -8,10 +8,10 @@ const Footer = () => {
         <footer className="bg-black pt-40">
             <Container>
                 <div className="text flex flex-col justify-center items-center space-y-5 mb-52">
-                    <h6 className="text-2xl text-slate-400">Let's Work Together</h6>
+                    <h6 className="text-2xl text-slate-400 font-medium">Let's Work Together</h6>
 
                     <Link to={"/contact"}>
-                        <h1 className="md:text-5xl text-3xl text-primary hover:text-white">rhmunna19@gmail.com</h1>
+                        <h1 className="md:text-5xl text-3xl lg:text-6xl text-primary hover:text-white font-bold">rhmunna19@gmail.com</h1>
                     </Link>
                 </div>
             </Container>

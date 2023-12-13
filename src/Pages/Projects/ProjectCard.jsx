@@ -8,7 +8,7 @@ const ProjectCard = ({ project }) => {
             </div>
 
             <div className="text">
-                <h3 className="mt-5 text-2xl text-primary">{project.name.slice(0, 30) + ".."}</h3>
+                <h3 className="mt-5 text-2xl text-primary font-medium">{project.name.slice(0, 30) + ".."}</h3>
                 <p className="mt-5">
                     <span className="font-semibold text-lg">Features:</span> {project.features.slice(0, 140) + "..."}
                 </p>
