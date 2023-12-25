@@ -11,11 +11,11 @@ const HomeAbout = () => {
             <Container>
                 <hr />
                 <div className="col flex flex-col md:flex-row justify-around gap-10 lg:items-center pt-16 pb-10">
-                    <div className="img flex-1">
+                    <div data-aos="fade-right" className="img flex-1">
                         <img src={image} alt="" className="shadow-lg border-b-[6px] lg:border-b-8" />
                     </div>
 
-                    <div className="text w-full md:w-1/2">
+                    <div data-aos="fade-left" className="text w-full md:w-1/2">
                         <div className="heading">
                             <SectionHeading title={"Tech Enthusiast Developer"} />
                         </div>

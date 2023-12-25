@@ -12,7 +12,7 @@ const ContactPage = () => {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-20">
-                    <div className="address">
+                    <div data-aos="fade-right" className="address">
                         <h2 className="text-3xl my-6 text-blue-600">GET IN TOUCH</h2>
                         <address className="text-lg">
                             745, Kushtia-Meherpur Hwy <br />

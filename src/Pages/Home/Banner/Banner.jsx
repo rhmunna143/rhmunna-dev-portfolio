@@ -2,7 +2,7 @@
 import Container from "../../../Components/Shared/Container";
 import "./Banner.css";
 import { HiOutlineDownload } from "react-icons/hi";
-import CV from "../../../assets/files/MD_RABBI_HAQUE_MUNNA_CV.pdf"
+import CV from "../../../assets/files/Rabbi Haque Munna_Front-End_Resume.pdf"
 import SocialIcons from "../../../Components/Social/SocialIcons";
 
 const Banner = () => {
@@ -10,7 +10,7 @@ const Banner = () => {
 
         <div className="banner-bg  lg:py-16 flex flex-col justify-center items-start">
             <Container>
-                <div className="banner-black p-16 lg:w-4/5">
+                <div data-aos="fade-left" className="banner-black p-16 lg:w-4/5">
                     <h1 className="text-5xl font-bold">Hi, I am <span className="uppercase">Rabi Haque <span className="text-primary">Munna</span></span></h1>
 
                     <h2 className="text-4xl mt-6 font-bold capitalize text-primary">Web Developer</h2>
@@ -20,7 +20,7 @@ const Banner = () => {
                     </p>
 
                     <div className="random-buttons flex flex-col justify-center w-fit gap-6">
-                        <a href={CV} download={"MD_RABBI_HAQUE_MUNNA-Sample-CV.pdf"} className="btn w-fit mt-6 btn-outline btn-warning text-lg font-medium uppercase"><HiOutlineDownload /> Download Resume</a>
+                        <a href={CV} download={"MD_RABBI_HAQUE_MUNNA-Resume.pdf"} className="btn w-fit mt-6 btn-outline btn-warning text-lg font-medium uppercase"><HiOutlineDownload /> Download Resume</a>
                         <div className="icons">
                             <SocialIcons />
                         </div>

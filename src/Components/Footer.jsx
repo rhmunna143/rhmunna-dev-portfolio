@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <footer className="bg-black pt-40">
             <Container>
-                <div className="text flex flex-col justify-center items-center space-y-5 mb-52">
+                <div data-aos="zoom-in" className="text flex flex-col justify-center items-center space-y-5 mb-52">
                     <h6 className="text-2xl text-slate-400 font-medium">Let's Work Together</h6>
 
                     <Link to={"/contact"}>

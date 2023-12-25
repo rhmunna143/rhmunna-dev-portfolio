@@ -7,7 +7,7 @@ const ExperienceComponent = () => {
         <div className="text-white py-8 px-4">
             <Container>
                 <SectionHeading title={"MERN Stack Project Experience"} />
-                <div className="mb-4 mt-6">
+                <div data-aos="fade-left" className="mb-4 mt-6">
                     <h3 className="text-xl font-semibold mb-2">Project: PRIZO (The ContestHub website)</h3>
                     <p className="text-lg mb-2">
                         <span className="font-semibold">Description: </span>

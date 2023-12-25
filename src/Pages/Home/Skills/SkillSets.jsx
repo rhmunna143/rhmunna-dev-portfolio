@@ -12,7 +12,7 @@ const SkillSets = () => {
                     <SectionHeading title={"Skills Set"} />
                 </div>
 
-                <div className="skill-icons text-8xl flex gap-10 flex-wrap justify-center items-center mt-20">
+                <div data-aos="fade-up" className="skill-icons text-8xl flex gap-10 flex-wrap justify-center items-center mt-20">
                     <SiJavascript className="hover:text-primary" />
                     <FaReact className="hover:text-primary" />
                     <TbBrandNodejs className="hover:text-primary" />

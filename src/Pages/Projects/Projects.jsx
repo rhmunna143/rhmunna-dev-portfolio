@@ -13,8 +13,9 @@ const data = [
         "serverUrl": "",
         "features": " Authentication using Firebase   Private Routes   AOS Animation   Single Page Application using React Router DOM   Dynamic Route   Private   Number Counter   Marquee   Navigate using state path  ",
         "technologies": [
-            "React",
-            "Tailwind CSS",
+            "JavaScript, ",
+            "React, ",
+            "Tailwind CSS, ",
             "FireBase"
         ]
     },
@@ -27,10 +28,10 @@ const data = [
         "serverUrl": "https://github.com/rhmunna143/server-zestoria-food",
         "features": "- Full stack website - User authentication- Protected routes - Database CRUD opt - Server-side - RESTful API's - Slider",
         "technologies": [
-            "React",
-            "Tailwind CSS",
-            "FireBase",
-            "MongoDb",
+            "React, ",
+            "Tailwind CSS, ",
+            "FireBase, ",
+            "MongoDb, ",
             "Express.Js"
         ]
     },
@@ -42,11 +43,11 @@ const data = [
         "serverUrl": "https://github.com/rhmunna143/server-prizo",
         "features": "Search -Payment Gateway - Dashboard - Multiple user role - Full Stack - Database -Mongoose -Auth -CRUD",
         "technologies": [
-            "React",
-            "Tailwind CSS",
-            "FireBase",
-            "MongoDb",
-            "Express.Js",
+            "React, ",
+            "Tailwind CSS, ",
+            "FireBase, ",
+            "MongoDb, ",
+            "Express.Js, ",
             "Mongoose"
         ]
     }
