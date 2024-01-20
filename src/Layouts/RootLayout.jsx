@@ -5,13 +5,13 @@ import Footer from "../Components/Footer";
 
 const RootLayout = () => {
     return (
-        <>
+        <div style={{ overflowX: "hidden" }}>
             <NavBar />
 
             <Outlet />
 
             <Footer />
-        </>
+        </div>
     );
 };
 

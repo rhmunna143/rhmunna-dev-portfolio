@@ -2,7 +2,7 @@
 import Container from "../../../Components/Shared/Container";
 import "./Banner.css";
 import { HiOutlineDownload } from "react-icons/hi";
-import CV from "../../../assets/files/Rabbi Haque Munna_Front-End_Resume.pdf"
+import CV from "../../../assets/files/RH Munna - Front-End Resume.pdf"
 import SocialIcons from "../../../Components/Social/SocialIcons";
 
 const Banner = () => {
@@ -19,6 +19,8 @@ const Banner = () => {
                         Tech enthusiast fueled by curiosity. <br /> Dedicated to coding, exploring new technologies, and creating innovative solutions. <br /> Let's connect and build something great!
                     </p>
 
+
+                    {/* RESUME Update */}
                     <div className="random-buttons flex flex-col justify-center w-fit gap-6">
                         <a href={CV} download={"MD_RABBI_HAQUE_MUNNA-Resume.pdf"} className="btn w-fit mt-6 btn-outline btn-warning text-lg font-medium uppercase"><HiOutlineDownload /> Download Resume</a>
                         <div className="icons">
