@@ -39,7 +39,8 @@ const data = [
         "id": "333",
         "name": "Prizo the ContestHub web App",
         "image": "https://i.ibb.co/pWTFKbr/1702380543991.png",
-        "liveUrl": "https://github.com/rhmunna143/client-prizo",
+        "liveUrl": "https://prizo-7045e.web.app",
+        "clientUrl": "https://github.com/rhmunna143/client-prizo",
         "serverUrl": "https://github.com/rhmunna143/server-prizo",
         "features": "Search -Payment Gateway - Dashboard - Multiple user role - Full Stack - Database -Mongoose -Auth -CRUD",
         "technologies": [
